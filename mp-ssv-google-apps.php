@@ -13,7 +13,7 @@
 include_once "options/options.php";
 
 function mp_ssv_register_mp_ssv_google_apps(){
-	if (!is_plugin_active('mp-ssv-frontend-members/mp-ssv-frontend-members.php')) {
+	if (!is_plugin_active('MP-SSV-Frontend-Members/mp-ssv-frontend-members.php')) {
 		wp_die('Sorry, but this plugin requires <a href="http://studentensurvival.com/plugins/mp-ssv-frontend-members">SSV Frontend Members</a> to be installed and active. <br><a href="' . admin_url( 'plugins.php' ) . '">&laquo; Return to Plugins</a>');
 	}
 }
